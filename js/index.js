@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||新|年|快|乐|祝储蓓2024新年快乐!');
+      S.UI.simulate('|#countdown 3||新|年|快|乐|祝储蓓|2024年|新年快乐!');
     }
 
     S.Drawing.loop(function () {
